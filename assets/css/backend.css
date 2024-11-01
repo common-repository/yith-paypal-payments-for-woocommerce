@@ -1,0 +1,243 @@
+/** Admin panel **/
+
+#yith_ppwc_button_color-wrapper {
+    width: 60%;
+}
+
+#yith_ppwc_button_color-wrapper li.yith-plugin-fw-select-images__item {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 200px;
+    text-align: center;
+}
+
+#yith_ppwc_button_color-wrapper li.yith-plugin-fw-select-images__item img {
+    margin: 10px auto 15px;
+    width: 169px;
+}
+
+.yith-plugin-fw-radio__row label small {
+    display: block;
+}
+
+/**
+Button size field
+**/
+div#yith_ppwc_button_size {
+    width: 200px;
+}
+
+div#yith_ppwc_button_size .yith-plugin-fw-dimensions__dimension > input[type=number].yith-plugin-fw-dimensions__dimension__number {
+    border-radius: 6px !important;
+}
+
+/**
+Login Status
+**/
+
+.onboarding-status span.active {
+    color: rgb(130, 135, 11);
+}
+
+.onboarding-status span.not-active {
+    color: rgb(160, 10, 10);
+}
+
+.onboarding-status-info {
+    display: flex;
+    border-left: 1px solid #ccc;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.onboarding-status-info .info {
+    border: 1px solid #ccc;
+    border-left: 0;
+    text-align: center;
+    flex: 1;
+}
+
+.onboarding-status-info .info-label {
+    display: block;
+    padding: 10px 0 5px 0;
+    font-size: 12px;
+}
+
+.onboarding-status-info .info-value {
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 5px 4px 10px;
+    display: block;
+}
+
+.yith_ppwc_login_button_wrapper {
+    width: 750px;
+}
+
+.onboarding-status-note {
+    border: 1px solid #ccc;
+    border-top: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-table .onboarding-status-note p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.onboarding-action-buttons {
+    margin-top: 20px;
+}
+
+.wp-core-ui .yith-plugin-ui .onboarding-action-buttons .button.button-primary {
+    line-height: 28px;
+    text-transform: none;
+    background-color: rgb(48, 103, 153);
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.onboarding-action-buttons .button.button-red {
+    color: rgb(145, 0, 2);
+    border-color: rgb(145, 0, 2);
+    line-height: 29px;
+    background:#fff;
+}
+
+.wp-core-ui .yith-plugin-ui .onboarding-action-buttons .button:hover {
+    filter: brightness(120%);
+}
+
+.yith-ppwc-button-wrapper a[data-paypal-button="PPLtBlue"] {
+    padding-top: 12px;
+    border-radius: 8px;
+    border: 1px solid #329ddb;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+
+/** REVOKE dialog **/
+.yith-ppwc-logout-confirm.ui-widget, .yith-ppwc-logout-confirm.ui-widget.ui-widget button {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.yith-ppwc-logout-confirm .ui-dialog-titlebar {
+    background: #fff;
+    border: 0;
+}
+
+.yith-ppwc-logout-confirm .ui-dialog-titlebar span {
+    font-size: 15px;
+}
+
+.yith-ppwc-logout-confirm span.ui-button-icon-primary.ui-icon.ui-icon-closethick {
+    display: none;
+}
+
+.yith-ppwc-logout-confirm .ui-dialog-titlebar-close:before {
+    line-height: 3.5em;
+    font-weight: 400;
+}
+
+.yith-ppwc-logout-confirm button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.ui-state-hover {
+    box-shadow: none;
+}
+
+.yith-ppwc-logout-confirm .ui-dialog-buttonpane {
+    background: #fff;
+    border-width: 0!important;
+}
+
+.yith-ppwc-logout-confirm .ui-dialog-buttonpane button {
+    box-shadow: none;
+
+}
+
+.yith-ppwc-logout-confirm .ui-dialog-buttonpane.ui-widget-content .ui-state-default {
+    background: #fff;
+    line-height: 28px;
+    text-transform: none;
+    background-color: #cacaca;
+    color: #515151;
+    font-weight: normal;
+    border: 0;
+    transition: all ease 0.3s;
+}
+
+.yith-ppwc-logout-confirm .ui-dialog-buttonpane.ui-widget-content .ui-state-default:first-child {
+    background-color: rgb(48, 103, 153);
+    color: #fff;
+}
+
+
+.yith-ppwc-logout-confirm .ui-dialog-buttonpane.ui-widget-content .ui-state-default:hover {
+    filter: brightness(120%);
+}
+
+.yith-ppwc-logout-confirm .ui-dialog-buttonpane button span {
+    box-shadow: none;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items tr.partial-payment td.thumb{
+    position:relative;
+    text-align:center;
+}
+table.woocommerce_order_items tr.partial-payment .thumb div::before {
+    font-family: WooCommerce;
+    font-size:18px;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: 0;
+    text-indent: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: '\e00f';
+    color: #ccc
+
+}
+
+@media (max-width: 1024px) {
+    .yith_ppwc_login_button_wrapper {
+        width: 300px;
+
+    }
+
+    .onboarding-status-info {
+        display: block;
+
+    }
+
+    .onboarding-status-info .info {
+        text-align: left;
+        padding: 10px;
+    }
+
+
+}
+
+@media (max-width: 1920px) {
+    .yith-plugin-ui #plugin-fw-wc h2 + div p, .yith-plugin-ui p.info-box{
+        width: 80%!important;
+    }
+
+    .yith-plugin-ui span.description{
+        max-width: 80%!important;
+    }
+}

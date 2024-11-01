@@ -1,0 +1,105 @@
+.yith-ppwc-button{
+    margin: 20px 0;
+}
+
+.paypal-button-container {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+#yith-ppwc-cc-form .card_container {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+#yith-ppwc-cc-form .card_field{
+    width: 100%;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height:40px;
+    background:white;
+    font-size:17px;
+    color:#3a3a3a;
+    font-family:helvetica, tahoma, calibri, sans-serif;
+}
+#yith-ppwc-cc-form input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height:40px;
+    background:white;
+    font-size:17px;
+    color:#3a3a3a;
+    font-family:helvetica, tahoma, calibri, sans-serif;
+}
+
+
+
+.yith-ppwc-cardinfo-card-number {
+    position: relative;
+}
+
+#yith-ppwc-cc-form #card-image {
+    position: absolute;
+    top: 34px;
+    right: 1em;
+    width: 44px;
+    height: 28px;
+    background-image: url(../images/card_sprite.png);
+    background-size: 86px 458px;
+    border-radius: 4px;
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
+#yith-ppwc-cc-form #card-image.visa {
+    background-position: 0 -398px;
+}
+#yith-ppwc-cc-form #card-image.master-card {
+    background-position: 0 -281px;
+}
+#yith-ppwc-cc-form #card-image.american-express {
+    background-position: 0 -370px;
+}
+#yith-ppwc-cc-form #card-image.discover {
+    background-position: 0 -163px;
+}
+#yith-ppwc-cc-form #card-image.maestro {
+    background-position: 0 -251px;
+}
+#yith-ppwc-cc-form #card-image.jcb {
+    background-position: 0 -221px;
+}
+#yith-ppwc-cc-form #card-image.diners-club {
+    background-position: 0 -133px;
+}
+
+#yith-ppwc-cc-form  .error {
+    font-size: 13px;
+    color: red;
+}
+
+.yith-ppwc-ty-message {
+    padding:20px 0;
+    font-weight:700;
+}
+
+form.checkout .blockUI {
+    z-index: 900!important;
+}

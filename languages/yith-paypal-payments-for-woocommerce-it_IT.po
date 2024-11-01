@@ -1,0 +1,948 @@
+# Translation of YITH PayPal Payments for WooCommerce in Italian
+# This file is distributed under the same license as the YITH PayPal Payments for WooCommerce package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-09 18:26+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.4.1\n"
+"Language: it\n"
+"Project-Id-Version: YITH PayPal Payments for WooCommerce\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: includes/class-yith-paypal-scripts.php:164
+msgctxt "Label button of a dialog popup"
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-yith-paypal-scripts.php:163
+msgctxt "Label button of a dialog popup"
+msgid "Continue"
+msgstr ""
+
+#: templates/admin/login-button.php:87
+msgctxt "admin login PayPal button label"
+msgid "Revoke"
+msgstr "Revoca"
+
+#: templates/admin/login-button.php:84
+msgctxt "admin login PayPal button label"
+msgid "Refresh PayPal Details"
+msgstr "Aggiorna i dettagli PayPal"
+
+#: templates/admin/login-button.php:79
+msgctxt "admin login PayPal note"
+msgid "To start to accept payments, login to PayPal and finish signing up."
+msgstr "Per iniziare ad accettare pagamenti, effettua l'accesso su PayPal e completa il processo di registrazione."
+
+#: templates/admin/login-button.php:78
+msgctxt "admin login PayPal note label"
+msgid "Notice:"
+msgstr "Avviso:"
+
+#: templates/admin/login-button.php:72
+msgctxt "admin login PayPal info"
+msgid "Payment receivable"
+msgstr "Pagamento riscuotibile"
+
+#: templates/admin/login-button.php:68
+msgctxt "admin login PayPal info"
+msgid "Confirmed e-mail"
+msgstr "Email confermata"
+
+#: templates/admin/login-button.php:62
+msgctxt "admin login PayPal info"
+msgid "Consent status"
+msgstr "Stato consenso"
+
+#: templates/admin/login-button.php:54
+msgctxt "admin login PayPal info"
+msgid "Permission granted"
+msgstr "Permessi concessi"
+
+#: templates/admin/login-button.php:47
+msgctxt "admin login PayPal info"
+msgid "PayPal ID"
+msgstr "ID PayPal"
+
+#. translators:Admin option, 1 and 2 the placeholder are tags, 2 is the current
+#. status of login.
+#: templates/admin/login-button.php:25
+msgctxt "Admin option, 1 and 2 the placeholder are tags, 2 is the current status of login"
+msgid "On-boarding status: %1$s%2$s%3$s"
+msgstr "Stato connessione: %1$s%2$s%3$s"
+
+#: plugin-options/general-options.php:111
+msgctxt "Admin option, this is the default option of invoice prefix, do not translate"
+msgid "YITH-"
+msgstr "YITH-"
+
+#: plugin-options/general-options.php:58
+msgctxt "Admin panel option. Development environment."
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: plugin-options/general-options.php:57
+msgctxt "Admin panel option. Production environment."
+msgid "Live"
+msgstr "Live"
+
+#: plugin-options/general-options.php:47
+msgctxt "Default value for PayPal Payment description."
+msgid "Pay safe with PayPal"
+msgstr "Paga in sicurezza con PayPal"
+
+#: plugin-options/general-options.php:38
+msgctxt "Default value for PayPal Payment title."
+msgid "Pay with PayPal"
+msgstr "Paga con PayPal"
+
+#: plugin-options/general-options.php:53
+msgctxt "Admin panel option description"
+msgid "Select to take live payment transactions or to test payments using a Sandbox environment"
+msgstr "Scegli se effettuare pagamenti reali o se fare dei test in un ambiente di test in sandbox"
+
+#: plugin-options/general-options.php:44
+msgctxt "Admin panel option description"
+msgid "Enter an optional description for this payment method."
+msgstr "Inserisci una descrizione opzionale per questo metodo di pagamento."
+
+#: plugin-options/general-options.php:35
+msgctxt "Admin panel option description"
+msgid "Enter a title to identify this payment method during checkout."
+msgstr "Inserisci un titolo per identificare questo metodo di pagamento durante il checkout."
+
+#: plugin-options/general-options.php:26
+msgctxt "Admin panel option description"
+msgid "Choose to enable YITH PayPal Payments for WooCommerce."
+msgstr "Scegli se attivare YITH PayPal Payments for WooCommerce."
+
+#: plugin-options/general-options.php:52
+msgctxt "Admin panel option title"
+msgid "Environment"
+msgstr "Ambiente di lavoro"
+
+#: plugin-options/general-options.php:43
+msgctxt "Admin panel option title"
+msgid "Description"
+msgstr "Descrizione"
+
+#: plugin-options/general-options.php:34
+msgctxt "Admin panel option title"
+msgid "Title"
+msgstr "Titolo"
+
+#: plugin-options/general-options.php:25
+msgctxt "Admin panel option title"
+msgid "Enable YITH PayPal Payments"
+msgstr "Attiva YITH PayPal Payments"
+
+#: plugin-options/general-options.php:17
+msgctxt "Title of setting tab"
+msgid "General Options"
+msgstr "Opzioni generali"
+
+#: plugin-options/credit-card-options.php:45
+msgctxt "Default value of a the payment method description"
+msgid "Pay safe with Credit Card"
+msgstr "Paga in sicurezza con carta di credito"
+
+#: plugin-options/credit-card-options.php:42
+msgctxt "Admin description option of payment method description."
+msgid "Enter an optional description for this payment method."
+msgstr "Inserisci una descrizione opzionale per questo metodo di pagamento."
+
+#: plugin-options/credit-card-options.php:41
+msgctxt "Admin title option of payment method description"
+msgid "Description"
+msgstr "Descrizione"
+
+#: plugin-options/credit-card-options.php:36
+msgctxt "Default value of a the payment method title"
+msgid "Pay with Credit Card or Debit Card"
+msgstr "Paga con carta di credito o carta di debito"
+
+#: plugin-options/credit-card-options.php:33
+msgctxt "Admin option description"
+msgid "Enter a title to identify this payment method during checkout."
+msgstr "Inserisci un titolo per identificare questo metodo di pagamento durante il checkout."
+
+#: plugin-options/credit-card-options.php:32
+msgctxt "Admin option title of payment method"
+msgid "Title"
+msgstr "Titolo"
+
+#: plugin-options/credit-card-options.php:15
+msgctxt "Admin option section title"
+msgid "Custom Credit Card Options"
+msgstr "Opzioni carta di credito personalizzata"
+
+#: plugin-options/button-options.php:66
+msgctxt "Option: Button color"
+msgid "Black"
+msgstr "Nero"
+
+#: plugin-options/button-options.php:62
+msgctxt "Option: Button color"
+msgid "White"
+msgstr "Bianco"
+
+#: plugin-options/button-options.php:58
+msgctxt "Option: Button color"
+msgid "Silver"
+msgstr "Argento"
+
+#: plugin-options/button-options.php:54
+msgctxt "Option: Button color"
+msgid "Blue"
+msgstr "Blu"
+
+#: plugin-options/button-options.php:50
+msgctxt "Option: Button color"
+msgid "Gold"
+msgstr "Oro"
+
+#. translators:placeholders are html tags.
+#: plugin-options/general-options.php:88
+msgctxt "Admin option, the placeholder are tags"
+msgid "Sale %1$sFunds are transferred instantly from customer account to merchant account.%2$s"
+msgstr "Addebito %1$sLa somma verrà trasferita istantaneamente dal conto del cliente a quello dell'esercente.%2$s"
+
+#. translators:placeholders are html tags.
+#: plugin-options/button-options.php:76
+msgctxt "Admin option, the placeholder are tags"
+msgid "Choose the shape style of PayPal button. The recommended shape is %1$srectangular%2$s."
+msgstr "Scegli lo stile del pulsante PayPal. Forma consigliata %1$srettangolo%2$s."
+
+#. translators:placeholders are html tags.
+#: plugin-options/button-options.php:44
+msgctxt "Admin option, the placeholder are tags"
+msgid "Choose the PayPal button color. The recommended color is %1$sgold%2$s."
+msgstr "Scegli il colore del pulsante PayPal. Colore consigliato %1$soro%2$s."
+
+#. translators:placeholders are html tags.
+#: plugin-options/button-options.php:34
+msgctxt "Admin option, the placeholder are tags"
+msgid "Single product pages %1$sShow PayPal button in all product pages%2$s"
+msgstr "Pagine prodotto %1$sMostra il pulsante PayPal in tutte le pagine prodotto%2$s"
+
+#. translators:placeholders are html tags.
+#: plugin-options/button-options.php:32
+msgctxt "Admin option, the placeholder are tags"
+msgid "Checkout %1$sShow PayPal button on checkout page%2$s"
+msgstr "Checkout %1$sMostra il pulsante PayPal nella pagina Checkout%2$s"
+
+#. translators:placeholders are html tags.
+#: plugin-options/button-options.php:30
+msgctxt "Admin option, the placeholder are tags"
+msgid "Cart page %1$sShow PayPal button on cart page%2$s"
+msgstr "Pagina carrello %1$sMostra il pulsante PayPal nella pagina Carrello%2$s"
+
+#: plugin-options/credit-card-options.php:60
+msgctxt "Admin description option"
+msgid "3D Secure authentication is performed only if the card is enrolled for the service. In scenarios where the 3D Secure authentication hasn't been successful, you have the option to complete the payment at your own risk, meaning that you, as the merchant, will be liable in case of a chargeback."
+msgstr "L'autenticazione tramite 3D Secure viene effettuata solo se la carta è abilitata al servizio. Nei casi in cui l'autenticazione tramite 3D Secure non vada a buon fine, puoi comunque scegliere di completare il pagamento a tuo rischio, cioè, in quanto esercente, sarai responsabile nel caso di chargeback (contestazioni di addebito)."
+
+#: plugin-options/credit-card-options.php:51
+msgctxt "Admin description option"
+msgid "3D Secure enables you to authenticate card holders through card issuers. It reduces the likelihood of fraud when you use supported cards and improves transaction performance. A successful 3D Secure authentication can shift liability for chargebacks due to fraud from you to the card issuer."
+msgstr "3D Secure ti permette di autenticare il proprietario della carta di credito tramite la società emittente della carta. Riduce la probabilità di frode quando vengono utilizzate carte supportate e migliora le performance di transazione. Un'autenticazione tramite 3D Secure avvenuta con successo può spostare l'attribuzione della responsabilità nel caso di chargeback (contestazione di addebito) per frode da te al fornitore della carta."
+
+#: plugin-options/credit-card-options.php:24
+msgctxt "Admin description option"
+msgid "Choose to enable the custom \"white label\" credit card option in your checkout as payment options."
+msgstr "Scegli se abilitare il metodo di pagamento tramite carta di credito white-label al checkout."
+
+#: plugin-options/button-options.php:24
+msgctxt "Admin description option"
+msgid "Choose where to show the PayPal payment button."
+msgstr "Scegli dove mostrare il pulsante di pagamento PayPal."
+
+#: plugin-options/general-options.php:107
+msgctxt "Admin title option"
+msgid "Invoice prefix"
+msgstr "Prefisso fatture"
+
+#: plugin-options/general-options.php:97
+msgctxt "Admin title option"
+msgid "Fast checkout"
+msgstr "Checkout rapido"
+
+#: plugin-options/general-options.php:81
+msgctxt "Admin title option"
+msgid "Payment action"
+msgstr "Azione di pagamento"
+
+#: plugin-options/credit-card-options.php:59
+msgctxt "Admin title option"
+msgid "3D Secure Liability Shift"
+msgstr "Attribuzione di responsabilità 3D Secure"
+
+#: plugin-options/credit-card-options.php:50
+msgctxt "Admin title option"
+msgid "Enable 3D Secure"
+msgstr "Abilita il 3D Secure"
+
+#: plugin-options/credit-card-options.php:23
+msgctxt "Admin title option"
+msgid "Enable YITH PayPal Payments"
+msgstr "Attiva YITH PayPal Payments"
+
+#: plugin-options/button-options.php:116
+msgctxt "Admin title option"
+msgid "Cards for the transaction"
+msgstr "Carte disponibili per le transazioni"
+
+#: plugin-options/button-options.php:106
+msgctxt "Admin title option"
+msgid "Funding sources for the transaction"
+msgstr "Metodi di pagamento disponibili per le transazioni"
+
+#: plugin-options/button-options.php:88
+msgctxt "Admin title option"
+msgid "Button container width"
+msgstr "Larghezza contenitore pulsante"
+
+#: plugin-options/button-options.php:74
+msgctxt "Admin title option"
+msgid "Button shape"
+msgstr "Forma pulsante"
+
+#. translators:placeholders are html tags.
+#: plugin-options/button-options.php:42
+msgctxt "Admin title option"
+msgid "Button color"
+msgstr "Colore pulsante"
+
+#: plugin-options/button-options.php:23
+msgctxt "Admin title option"
+msgid "Show PayPal button on"
+msgstr "Mostra il pulsante PayPal in"
+
+#: plugin-options/button-options.php:15
+msgctxt "Title of setting tab."
+msgid "Button Options"
+msgstr "Opzioni pulsanti"
+
+#: includes/yith-paypal-functions.php:183
+msgctxt "Merchant login status in admin options"
+msgid "Not Active"
+msgstr "Non attivo"
+
+#: includes/yith-paypal-functions.php:182
+msgctxt "Merchant login status in admin options"
+msgid "Active"
+msgstr "Attivo"
+
+#: includes/yith-paypal-functions.php:56
+msgctxt "Admin option, payment method name do not translate"
+msgid "Venmo"
+msgstr "Venmo"
+
+#: includes/yith-paypal-functions.php:55
+msgctxt "Admin option, payment method name do not translate"
+msgid "Sofort"
+msgstr "Sofort"
+
+#: includes/yith-paypal-functions.php:54
+msgctxt "Admin option, payment method name do not translate"
+msgid "SEPA-Lastschrift"
+msgstr "SEPA-Lastschrift"
+
+#: includes/yith-paypal-functions.php:53
+msgctxt "Admin option, payment method name do not translate"
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#: includes/yith-paypal-functions.php:52
+msgctxt "Admin option, payment method name do not translate"
+msgid "MyBank"
+msgstr "MyBank"
+
+#: includes/yith-paypal-functions.php:51
+msgctxt "Admin option, payment method name do not translate"
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: includes/yith-paypal-functions.php:50
+msgctxt "Admin option, payment method name do not translate"
+msgid "giropay"
+msgstr "giropay"
+
+#: includes/yith-paypal-functions.php:49
+msgctxt "Admin option, payment method name do not translate"
+msgid "eps"
+msgstr "eps"
+
+#: includes/yith-paypal-functions.php:48
+msgctxt "Admin option, payment method name do not translate"
+msgid "BLIK"
+msgstr "BLIK"
+
+#: includes/yith-paypal-functions.php:47
+msgctxt "Admin option, payment method name do not translate"
+msgid "Bancontact"
+msgstr "Bancontact"
+
+#: includes/yith-paypal-functions.php:46
+msgctxt "Admin option, payment method name do not translate"
+msgid "PayPal Credit"
+msgstr "Credito PayPal"
+
+#: plugin-options/general-options.php:108
+msgctxt "Admin option"
+msgid "Enter a prefix that will be attached to the invoice number. Useful if you have connected the same PayPal account on more shops."
+msgstr "Inserisci un prefisso da premettere al numero di fattura. Utile se scegli di connettere lo stesso account PayPal in più di un negozio."
+
+#: plugin-options/general-options.php:98
+msgctxt "Admin option"
+msgid "Enable fast checkout for digital goods."
+msgstr "Abilita il checkout rapido per i prodotti digitali."
+
+#: plugin-options/general-options.php:82
+msgctxt "Admin option"
+msgid "Choose whether to capture funds immediately or authorize the payment only."
+msgstr "Scegli se catturare i fondi immediatamente o solamente autorizzare il pagamento."
+
+#: plugin-options/credit-card-options.php:67
+msgctxt "Admin option"
+msgid "The authentication system is not available."
+msgstr "Il sistema di autenticazione non è disponibile."
+
+#: plugin-options/credit-card-options.php:66
+msgctxt "Admin option"
+msgid "Liability is with the merchant."
+msgstr "La responsabilità è attribuita all'esercente."
+
+#: plugin-options/credit-card-options.php:65
+msgctxt "Admin option"
+msgid "Liability might shift to the card issuer."
+msgstr "La responsabilità potrebbe essere attribuita al fornitore della carta."
+
+#: plugin-options/button-options.php:117
+msgctxt "Admin option"
+msgid "Select the cards that will be displayed in the checkout button. By default, card eligibility is determined based on a variety of factors."
+msgstr "Seleziona le carte da mostrare al checkout. L'idoneità di ciascuna carta dipende da molteplici fattori."
+
+#: plugin-options/button-options.php:107
+msgctxt "Admin option"
+msgid "Select the funding sources that will be displayed in the checkout button. By default, funding source eligibility is determined based on a variety of factors."
+msgstr "Seleziona i metodi pagamento da mostrare al checkout. L'idoneità di ciascun metodo di pagamento dipende da molteplici fattori."
+
+#: plugin-options/button-options.php:94
+msgctxt "Admin option"
+msgid "Width"
+msgstr "Larghezza"
+
+#: plugin-options/button-options.php:89
+msgctxt "Admin option"
+msgid "Use this value to edit the button size."
+msgstr "Utilizza questo valore per modificare la dimensione del pulsante."
+
+#: plugin-options/button-options.php:82
+msgctxt "Admin option"
+msgid "Pill"
+msgstr "Bordi arrotondati"
+
+#: plugin-options/button-options.php:81
+msgctxt "Admin option"
+msgid "Rectangular"
+msgstr "Rettangolare"
+
+#: includes/yith-paypal-functions.php:45
+msgctxt "Admin option"
+msgid "Credit or debit cards"
+msgstr "Carta di credito o debito"
+
+#: includes/yith-paypal-functions.php:29
+msgctxt "Admin option, credit card name do not translate"
+msgid "Hiper"
+msgstr "Hiper"
+
+#: includes/yith-paypal-functions.php:28
+msgctxt "Admin option, credit card name do not translate"
+msgid "ELO"
+msgstr "ELO"
+
+#: includes/yith-paypal-functions.php:27
+msgctxt "Admin option, credit card name do not translate"
+msgid "JCB"
+msgstr "JCB"
+
+#: includes/yith-paypal-functions.php:26
+msgctxt "Admin option, credit card name do not translate"
+msgid "Discover"
+msgstr "Discover"
+
+#: includes/yith-paypal-functions.php:25
+msgctxt "Admin option, credit card name do not translate"
+msgid "American Express"
+msgstr "American Express"
+
+#: includes/yith-paypal-functions.php:24
+msgctxt "Admin option, credit card name do not translate"
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: includes/yith-paypal-functions.php:23
+msgctxt "Admin option, credit card name do not translate"
+msgid "Visa"
+msgstr "Visa"
+
+#. translators: %s: Plugin name and version
+#: includes/upgrade/class-yith-paypal-upgrade.php:226
+msgctxt "plugin-fw"
+msgid "%s update failed"
+msgstr "Aggiornamento di %s non riiuscito"
+
+#. translators: %s: Plugin name and version
+#: includes/upgrade/class-yith-paypal-upgrade.php:224
+msgctxt "plugin-fw"
+msgid "%s updated!"
+msgstr "%s aggiornato!"
+
+#. translators: %s: Plugin name and version
+#: includes/upgrade/class-yith-paypal-upgrade.php:222
+msgctxt "plugin-fw"
+msgid "Updating %s..."
+msgstr "Sto aggiornando %s..."
+
+#: includes/requests/class-yith-paypal-request.php:104
+msgctxt "Checkout error message"
+msgid "Error: Unable to process the PayPal API Request."
+msgstr "Errore: impossible elaborare la richiesta tramite le API di PayPal."
+
+#: includes/requests/class-yith-paypal-request-transaction.php:837
+msgctxt "Admin error message"
+msgid "The refund process is not completed"
+msgstr "Il processo di rimborso non è completo"
+
+#: includes/order/class-yith-paypal-order-partial-data-store-cpt.php:127
+#: includes/order/class-yith-paypal-order-partial.php:67
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%d %b %Y alle %I:%M %p"
+
+#: includes/order/class-yith-paypal-order-helper.php:85
+#: includes/order/class-yith-paypal-order-helper.php:107
+msgctxt "Order status"
+msgid "PayPal Payment authorized"
+msgstr "Pagamento PayPal autorizzato"
+
+#: includes/gateways/class-yith-paypal-gateway.php:760
+msgctxt "Part of an order note message"
+msgid " - Reason: "
+msgstr " - Motivazione: "
+
+#: includes/gateways/class-yith-paypal-gateway.php:695
+msgctxt "Order note. Placeholder who requested the void"
+msgid "PayPal payment is voided by %s"
+msgstr "Il pagamento PayPal è stato invalidato da %s"
+
+#: includes/gateways/class-yith-paypal-gateway.php:694
+msgctxt "A piece of order note, to specify who made the action"
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/gateways/class-yith-paypal-gateway.php:694
+msgctxt "A piece of order note, to specify who made the action"
+msgid "Administrator"
+msgstr "Amministratore"
+
+#: includes/gateways/class-yith-paypal-gateway.php:688
+msgctxt "Order note."
+msgid "Requested a Payment Authorization Void for this order from PayPal, but the Auth Code does not match with the registered code."
+msgstr "È stata richiesto l'invalidamento dell'autorizzazione di pagamento per questo ordine da PayPal, ma il codice di autorizzazione non corrisponde al codice registrato."
+
+#: includes/gateways/class-yith-paypal-gateway.php:649
+msgctxt "Order note."
+msgid "Order PayPal partial payment finalized. No more partial payment allowed."
+msgstr "Pagamento parziale PayPal concluso. Non sono consentiti ulteriori pagamenti parziali."
+
+#: includes/gateways/class-yith-paypal-gateway.php:700
+msgctxt "Error message. Placeholder is the error detail"
+msgid "Sorry, There was an error while processing payment %s"
+msgstr "Ci dispiace, si è verificato un errore durante l'elaborazione del pagamento %s"
+
+#: includes/gateways/class-yith-paypal-gateway.php:618
+msgctxt "Error message. Placeholder is the error detail"
+msgid "There was an error while processing partial payment: %s"
+msgstr "Si è verificato un errore durante l'elaborazione del pagamento parziale: %s"
+
+#: includes/gateways/class-yith-paypal-gateway.php:559
+msgctxt "Error message. Placeholder is the error detail"
+msgid "There was an error while processing payment: %s"
+msgstr "Si è verificato un errore durante l'elaborazione del pagamento: %s"
+
+#: includes/gateways/class-yith-paypal-gateway.php:638
+msgctxt "Order note. Placeholder id of transaction"
+msgid "PayPal partial payment approved (ID: %s)"
+msgstr "Pagamento parziale PayPal approvato (ID: %s)"
+
+#: includes/gateways/class-yith-paypal-gateway.php:550
+msgctxt "Order note. Placeholder id of transaction"
+msgid "PayPal payment approved (ID: %s)"
+msgstr "Pagamento PayPal approvato (ID: %s)"
+
+#: includes/gateways/class-yith-paypal-gateway.php:588
+msgctxt "Error message"
+msgid "Invalid request."
+msgstr "Richiesta non valida."
+
+#: includes/gateways/class-yith-paypal-gateway.php:542
+#: includes/gateways/class-yith-paypal-gateway.php:594
+#: includes/gateways/class-yith-paypal-gateway.php:681
+msgctxt "Error message"
+msgid "Authorize information are missed."
+msgstr "Le informazioni di autorizzazione non sono disponibili."
+
+#: includes/gateways/class-yith-paypal-gateway.php:492
+msgctxt "Order note, the placeholder is the expiration date of the authorized payment"
+msgid " Expiration date %s."
+msgstr " Data di scadenza %s."
+
+#: includes/gateways/class-yith-paypal-gateway.php:759
+msgctxt "Order note message"
+msgid "Refunded %1$s - Refund ID: %2$s"
+msgstr "Rimborsato %1$s - ID rimborso ID: %2$s"
+
+#: includes/gateways/class-yith-paypal-gateway.php:759
+msgctxt "Order note message"
+msgid "Fully Refund ID: %2$s"
+msgstr "ID rimborso totale: %2$s"
+
+#: includes/gateways/class-yith-paypal-gateway.php:488
+msgctxt "Order note message"
+msgid "PayPal Payment authorized. Change the order status to Processing or Complete to capture funds or do a partial payment."
+msgstr "Pagamento PayPal autorizzato. Imposta lo stato dell'ordine su \"In lavorazione\" oppure \"Completato\" per catturare i fondi o effettuare un pagamento parziale."
+
+#. translators: %s: Amount.
+#: includes/class-yith-paypal-webhook.php:389
+msgctxt "Order note, the placeholder is the amount of the order."
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr "Errore di validazione: gli importi PayPal non corrispondono (lordo %s)."
+
+#. translators: %s: currency code.
+#: includes/class-yith-paypal-webhook.php:369
+msgctxt "Order note, the placeholder is the currency code"
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr "Errore di validazione: le valute PayPal non corrispondono (codice %s)."
+
+#. translators: %s: Reference id of this denied action.
+#: includes/class-yith-paypal-webhook.php:307
+msgctxt "Order note, %s is the reference id."
+msgid "Pending payment via PayPal. Reference id: %s"
+msgstr "Pagamento in attesa su PayPal. ID di riferimento: %s"
+
+#. translators: %s: Reference id.
+#: includes/class-yith-paypal-webhook.php:289
+msgctxt "Order note, %s is the reference id."
+msgid "Denied payment via PayPal. Reference id: %s"
+msgstr "Pagamento con PayPal negato. ID di riferimento: %s"
+
+#. translators: %s: Reference id of this reversed action.
+#: includes/class-yith-paypal-webhook.php:272
+msgctxt "Order note, %s is the reference id."
+msgid "Reversed via PayPal. Reference id: %s"
+msgstr "Stornato tramite PayPal. ID di riferimento: %s"
+
+#. translators: 1. Reference id, 2. Refund Amount.
+#: includes/class-yith-paypal-webhook.php:253
+msgctxt "Order note when an order is refunded: Placeholder is the number of transaction"
+msgid "Refunded partially via PayPal. Reference id: %1$s. Amount: %2$s"
+msgstr "Rimborsato parzialmente tramite PayPal. ID di riferimento %1$s. Importo %2$s"
+
+#. translators: %s: Placeholder is the number of transaction.
+#: includes/class-yith-paypal-webhook.php:242
+msgctxt "Order note when an order is refunded: Placeholder is the number of transaction"
+msgid "Refunded via PayPal. Reference id: %s"
+msgstr "Rimborsato tramite PayPal. ID di riferimento: %s"
+
+#. translators: %s: Placeholder is the number of transaction.
+#: includes/class-yith-paypal-webhook.php:235
+msgctxt "Order note when an order is refunded: Placeholder is the number of transaction"
+msgid "Refunded this order via PayPal. Reference id: %s"
+msgstr "Questo ordine è stato rimborsato tramite PayPal. ID di riferimento: %s"
+
+#: includes/class-yith-paypal-scripts.php:152
+msgctxt "Error message on checkout page during the 3D Secure"
+msgid "There were some issues with the payment authorization. It is not possible to complete this transaction."
+msgstr "Si sono verificati degli errori con l'autorizzazione del pagamento. Non è possibile portare a termine questa transazione."
+
+#: includes/class-yith-paypal-scripts.php:151
+msgctxt "Error message on checkout page during the 3D Secure"
+msgid "An error occurred during the payment authorization. Please, try again."
+msgstr "Si è verificato un errore con l'autorizzazione del pagamento. Prova di nuovo."
+
+#: includes/class-yith-paypal-frontend.php:306
+msgctxt "Checkout button label"
+msgid "Continue"
+msgstr "Continua"
+
+#: includes/class-yith-paypal-frontend.php:303
+msgctxt "Checkout button label"
+msgid "Proceed to PayPal"
+msgstr "Procedi su PayPal"
+
+#: includes/class-yith-paypal-frontend.php:75
+msgctxt "Message in thank you page placeholder is the title of the gateway"
+msgid "Your payment has been captured with %s."
+msgstr "Il pagamento è stato effettuato tramite %s."
+
+#: includes/class-yith-paypal-frontend.php:73
+msgctxt "Message in thank you page placeholder is the title of the gateway"
+msgid "Your payment has been authorized with %s."
+msgstr "Il tuo pagamento è stato autorizzato tramite %s."
+
+#. Description of the plugin/theme
+msgid "<code><strong>YITH PayPal Payments for WooCommerce</strong></code> allows you to connect your WooCommerce store with the PayPal Commerce Platform. Take different payment types from 200 markets in 100+ currencies plus you can activate the unbranded credit card payment option. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>."
+msgstr "<code><strong>YITH PayPal Payments for WooCommerce</strong></code> consente di collegare il tuo negozio WooCommerce con PayPal Commerce Platform. Ricevi pagamenti di diverso tipo 200 mercati in più di 100 valute. Inoltre, puoi anche attivare l'opzione di pagamento con carta di credito white-label. <a href=\"https://yithemes.com/\" target=\"_blank\">Scopri altri plugin per il tuo e-commerce su <strong>YITH</strong></a>."
+
+#: templates/admin/login-button.php:90
+msgid "Disconnecting your PayPal account will prevent you from offering PayPal services and products on your website. Do you with to continue?"
+msgstr "Se disconnetti il tuo account PayPal non potrai più offrire i servizi PayPal e i prodotti del tuo sito web. Vuoi continuare?"
+
+#: templates/admin/login-button.php:89
+msgid "Disconnect your PayPal account."
+msgstr "Disconnetti il tuo account PayPal."
+
+#: templates/admin/login-button.php:32
+msgid "Connect with PayPal"
+msgstr "Connetti PayPal"
+
+#. translators: 1: refund id 2: refund date
+#: templates/admin/html-order-partial-payment.php:22
+msgid "Partial payment #%1$s - %2$s (Transaction ID: %3$s)"
+msgstr "Pagamento parziale #%1$s - %2$s (ID transazione: %3$s)"
+
+#: templates/admin/html-action-partial-payment.php:46
+msgid "Cancel"
+msgstr "Annulla"
+
+#. translators: refund amount
+#: templates/admin/html-action-partial-payment.php:45
+msgid "Pay %s via PayPal Payments"
+msgstr "Paga %s tramite PayPal Payments"
+
+#: templates/admin/html-action-partial-payment.php:30
+msgid "Partial payment amount"
+msgstr "Importo pagamento parziale"
+
+#: templates/admin/html-action-partial-payment.php:24
+msgid "Total available to pay"
+msgstr "Totale disponibile per il pagamento"
+
+#: templates/admin/html-action-partial-payment.php:20
+msgid "Amount already paid"
+msgstr ""
+
+#. translators:placeholders are html tags.
+#: plugin-options/general-options.php:90
+msgid "Authorize and capture %1$sFunds will be reserved for 3 days and the order will be set as on-hold until the admin completes it.%2$s"
+msgstr "Autorizza e cattura %1$sLa somma sarà riservata per 3 giorni e l'ordine sarà impostato come \"In attesa\" finché non sarà completato dall'amministratore.%2$s"
+
+#: includes/upgrade/class-yith-paypal-upgrade.php:606
+msgid "<br/><b>Please note:</b> You are using a higher version than the latest available one. </em>Please, make sure you've downloaded the latest version of <em>%1$s</em> from the only <a href=\"https://yithemes.com\" target=\"_blank\">YITH official website</a>. This is the only way to be sure the version you are using is 100%% malware-free."
+msgstr "<br/><b>Attenzione:</b> Stai utilizzando una versione superiore all'ultima disponibile. </em>Assicurati di aver scaricato l'ultima versione di <em>%1$s</em> solo dal <a href=\"https://yithemes.com\" target=\"_blank\">sito ufficiale YITH</a>. Questo è l'unico modo per essere sicuri che la versione utilizzata sia 100%% malware-free."
+
+#: includes/upgrade/class-yith-paypal-upgrade.php:602
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" class=\"%6$s\" data-plugin=\"%7$s\" data-slug=\"%8$s\" data-name=\"%1$s\">update now</a>."
+msgstr "È disponibile una nuova versione di %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Visualizza i dettagli della versione %4$s</a> oppure <a href=\"%5$s\" class=\"%6$s\" data-plugin=\"%7$s\" data-slug=\"%8$s\" data-name=\"%1$s\">aggiorna adesso</a>."
+
+#. translators: %1$s, %3$s are placeholders for the plugin name, %2$s the link
+#. to open changelog modal, %4$s is the new plugin version.
+#: includes/upgrade/class-yith-paypal-upgrade.php:600
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>."
+msgstr "È disponibile una nuova versione di %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Visualizza i dettagli della versione %4$s</a>."
+
+#: includes/upgrade/class-yith-paypal-upgrade.php:384
+msgid "Could not create Temporary file."
+msgstr "Non è stato possibile creare il file temporaneo."
+
+#: includes/upgrade/class-yith-paypal-upgrade.php:372
+msgid "Invalid URL Provided."
+msgstr "L'URL fornito non è valido."
+
+#: includes/upgrade/class-yith-paypal-upgrade.php:343
+msgid "YITH Repository"
+msgstr "Repository YITH"
+
+#: includes/upgrade/class-yith-paypal-upgrade.php:129
+msgid "An unexpected error occurred, please try again later. Thanks!"
+msgstr "Si è verificato un errore inaspettato, riprova più tardi. Grazie!"
+
+#: includes/order/class-yith-paypal-order-partial.php:67
+msgid "Refund &ndash; %s"
+msgstr "Rimborso &ndash; %s"
+
+#. translators: %s: Order date
+#: includes/order/class-yith-paypal-order-partial-data-store-cpt.php:126
+msgid "Partial Payment &ndash; %s"
+msgstr "Pagamento parziale &ndash; %s"
+
+#: includes/order/class-yith-paypal-order-helper.php:445
+msgid "An error occurred while attempting to create the refund using the payment gateway API."
+msgstr "Si è verificato un errore nel tentativo di emettere il rimborso tramite le API del gateway di pagamento."
+
+#: includes/order/class-yith-paypal-order-helper.php:439
+msgid "The payment gateway for this order does not support automatic refunds."
+msgstr "Il metodo di pagamento collegato a questo ordine non supporta i rimborsi automatici."
+
+#: includes/order/class-yith-paypal-order-helper.php:402
+msgid "Invalid refund amount."
+msgstr "Importo per il rimborso non valido."
+
+#: includes/order/class-yith-paypal-order-helper.php:395
+msgid "Invalid order gateway."
+msgstr "Gateway non presente."
+
+#: includes/order/class-yith-paypal-order-helper.php:383
+msgid "Invalid partial order ID."
+msgstr "ID ordine parziale non valido."
+
+#: includes/order/class-yith-paypal-order-helper.php:309
+msgid "Invalid partial payment amount."
+msgstr "Importo pagamento parziale non valido."
+
+#: includes/order/class-yith-paypal-order-helper.php:301
+msgid "Invalid request."
+msgstr "Richiesta non valida."
+
+#: includes/order/class-yith-paypal-order-helper.php:295
+#: includes/order/class-yith-paypal-order-helper.php:389
+msgid "Invalid order ID."
+msgstr "ID ordine non valido."
+
+#: includes/order/class-yith-paypal-order-helper.php:151
+msgid "Void Payment Authorization"
+msgstr "Invalida autorizzazione di pagamento"
+
+#. translators: %s: number of orders
+#: includes/order/class-yith-paypal-order-helper.php:91
+msgid "PayPal Payment authorized <span class=\"count\">(%s)</span>"
+msgid_plural "PayPal Payment authorized <span class=\"count\">(%s)</span>"
+msgstr[0] "Pagamento PayPal autorizzato <span class=\"count\">(%s)</span>"
+msgstr[1] "Pagamento PayPal autorizzato <span class=\"count\">(%s)</span>"
+
+#: includes/order/class-yith-paypal-order-helper.php:53
+#: includes/order/class-yith-paypal-order-helper.php:150
+msgid "Partial Payment"
+msgstr "Pagamento parziale"
+
+#: includes/gateways/class-yith-paypal-gateway.php:739
+msgid "No transaction id registered for this order."
+msgstr "Nessun ID transazione registrato per questo ordine."
+
+#: includes/gateways/class-yith-paypal-gateway.php:734
+msgid "No valid order to refund."
+msgstr "Nessun ordine valido per il rimborso."
+
+#: includes/gateways/class-yith-paypal-gateway.php:555
+#: includes/gateways/class-yith-paypal-gateway.php:613
+msgid "Something went wrong with the payment"
+msgstr "Si è verificato un errore con il pagamento"
+
+#: includes/gateways/class-yith-paypal-gateway.php:82
+msgid "PayPal Advanced Payments Gateway."
+msgstr ""
+
+#: includes/gateways/class-yith-paypal-gateway.php:81
+msgid "PayPal Payments"
+msgstr "PayPal Payments"
+
+#: includes/gateways/class-yith-paypal-custom-card-gateway.php:88
+msgid "PayPal Custom Credit Card Payments Gateway."
+msgstr "Carta di credito personalizzata gestita da YITH PayPal Payments."
+
+#: includes/gateways/class-yith-paypal-custom-card-gateway.php:87
+msgid "PayPal Payments Custom Card"
+msgstr "Carta personalizzata - PayPal Payments"
+
+#: includes/gateways/class-yith-paypal-custom-card-gateway.php:45
+msgid ""
+"SANDBOX ENABLED. Pay securely using your credit card.\n"
+"Test credit card numbers: 4111111111111111. Complete Expiration and CVV fields as needed."
+msgstr ""
+
+#: includes/gateways/class-yith-paypal-custom-card-gateway.php:40
+msgid "Pay with your Credit Card"
+msgstr "Paga con carta di credito"
+
+#: includes/gateways/class-yith-paypal-custom-card-gateway.php:39
+msgid "Credit Card"
+msgstr "Carta di credito"
+
+#: includes/class-yith-paypal-scripts.php:158
+msgid "Are you sure you wish to proceed to void this payment authorization? You will not be able to ask payments anymore."
+msgstr "Sei sicuro di voler procedere con l'invalidamento di questa autorizzazione? Non ti sarà più possibile richiedere altri pagamenti."
+
+#: includes/class-yith-paypal-scripts.php:157
+msgid "Are you sure you wish to proceed with this partial payment? This action cannot be undone."
+msgstr "Se sicuro di voler procedere con questo pagamento parziale? L'azione è irreversibile."
+
+#: includes/class-yith-paypal-checkout-helper.php:135
+msgid "No valid billing address provided."
+msgstr "Non è stato fornito un valido indirizzo di fatturazione."
+
+#: includes/class-yith-paypal-checkout-helper.php:102
+msgid "Unable to create order."
+msgstr "Impossibile creare l'ordine."
+
+#. translators: %s: shop cart url
+#: includes/class-yith-paypal-checkout-helper.php:82
+msgid "There was an error processing your request. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
+msgstr "Si è verificato un errore durante l'elaborazione della tua richiesta. <a href=\"%s\" class=\"wc-backward\">Torna al negozio</a>"
+
+#. translators: %s: shop cart url
+#: includes/class-yith-paypal-checkout-helper.php:38
+msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
+msgstr "Spiacenti, la tua sessione è scaduta. <a href=\"%s\" class=\"wc-backward\">Torna al negozio</a>"
+
+#: includes/class-yith-paypal-checkout-helper.php:28
+msgid "We were unable to process your order, please try again."
+msgstr "Non siamo riusciti ad elaborare il tuo ordine, prova di nuovo."
+
+#: includes/class-yith-paypal-ajax.php:495
+msgid "An error occurred processing the request!"
+msgstr "Si è verificato un errore durante l'elaborazione della richiesta!"
+
+#: includes/class-yith-paypal-ajax.php:271
+msgid "Error processing void authorization. Please try again."
+msgstr "Errore durante l'invalidamento dell'autorizzazione. Prova di nuovo."
+
+#: includes/class-yith-paypal-ajax.php:214
+msgid "Invalid refund amount for partial #%s (Transaction ID: %s)"
+msgstr "Importo rimborso non valido per #%s (ID transazione: %s)"
+
+#: includes/class-yith-paypal-ajax.php:203
+#: includes/class-yith-paypal-ajax.php:210
+msgid "Error processing refund. Please try again."
+msgstr "Errore durante l'elaborazione del rimborso. Prova di nuovo."
+
+#: includes/class-yith-paypal-ajax.php:199
+msgid "Invalid refund amount"
+msgstr "Importo rimborso non valido"
+
+#: includes/class-yith-paypal-ajax.php:153
+msgid "Error processing partial payment. Please try again."
+msgstr "Errore durante l'elaborazione del pagamento parziale. Prova di nuovo."
+
+#: includes/class-yith-paypal-ajax.php:149
+msgid "Invalid partial payment amount"
+msgstr "Importo pagamento parziale non valido"
+
+#: includes/class-yith-paypal-admin.php:123
+msgid "Custom Credit Card"
+msgstr "Carta di credito personalizzata"
+
+#: includes/class-yith-paypal-admin.php:118
+msgid "Button options"
+msgstr "Opzioni pulsanti"
+
+#: includes/class-yith-paypal-admin.php:117
+msgid "Settings"
+msgstr "Impostazioni"
